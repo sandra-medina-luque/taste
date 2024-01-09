@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu a:hover {
+    background-color: #555;
+  }
+  

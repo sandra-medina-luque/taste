@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 150px 100px 600px 100px;
+    grid-gap: 10px; /* Espacio entre las celdas */
+    grid-template-rows: auto; /* Ajuste automático de las filas */
+  }
+  
+  .item {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Definición de tamaños específicos para los elementos */
+.item-3 {
+    grid-column: span 1; /* Ocupa 1 columna */
+    grid-row: span 1; /* Ocupa 1 fila */
+}
+
+.item-4 {
+    grid-column: span 2; /* Ocupa 2 columnas */
+    grid-row: span 1; /* Ocupa 1 fila */
+}
+
+.item-7 {
+    grid-column: span 1; /* Ocupa 1 columna */
+    grid-row: span 2; /* Ocupa 2 filas */
+}
+
+.item-8 {
+    grid-column: span 2; /* Ocupa 2 columnas */
+    grid-row: span 2; /* Ocupa 2 filas */
+}
+  

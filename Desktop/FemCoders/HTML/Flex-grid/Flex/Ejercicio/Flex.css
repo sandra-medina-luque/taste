@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+}
+.header__navbar{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
